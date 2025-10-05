@@ -35,8 +35,8 @@ const logo = ref(MyLogo)
            
             </ul>
         </div>
-        <div class="navbar-end">
-            <a class="btn">Download CV</a>
+        <div class="navbar-end ">
+            <a class="btn btn-info">Download CV</a>
         </div>
     </div>
 </template>

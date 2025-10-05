@@ -1,2 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* Tell Tailwind which font to use for `font-sans` */
+@theme {
+  --font-sans: "Roboto", ui-sans-serif, system-ui,
+                -apple-system, "Segoe UI", "Helvetica Neue", Arial;
+}
